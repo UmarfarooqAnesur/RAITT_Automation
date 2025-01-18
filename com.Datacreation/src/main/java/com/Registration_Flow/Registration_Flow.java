@@ -128,7 +128,7 @@ public class Registration_Flow {
     driver.findElement(By.xpath("//one-button[contains(text(),'Kennwort speichern')]")).click();
     Thread.sleep(2000);
     
-    /*
+    
     //-----------------------------------E-mail Verification-----------------------------------
     driver.findElement(By.xpath("//one-pin-input[@type='number']")).getShadowRoot()
 							.findElement(By.className("form-control--md"))
@@ -211,7 +211,7 @@ public class Registration_Flow {
     String URL = driver.getCurrentUrl();
     System.out.println("Order id :-"+URL);
     driver.quit();
-    */
+    
 	}
 
 }
